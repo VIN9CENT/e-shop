@@ -25,6 +25,7 @@ const AllProducts = () => {
             <img
               src={product.image}
               alt={product.title}
+              loading="lazy"
               className="w-40 h-40 object-contain"
             />
           </Link>
